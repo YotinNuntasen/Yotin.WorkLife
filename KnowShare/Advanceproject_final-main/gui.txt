@@ -1,0 +1,82 @@
+import javax.swing.*;
+import java.awt.*;
+
+
+public class Gui3 {
+    protected JFrame contentPane;
+    protected JButton okButton, cancelButton;
+    protected JLabel nameLabel, addressLabel;
+    protected JPanel namePanel, buttonPanel, AddressPanel;
+    protected JTextArea txtArea;
+    protected JTextField nameTextField;
+    protected JScrollPane scrollBar;
+    protected String text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit," +
+    " sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." + 
+    " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." + 
+    " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." + 
+    " Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+   
+    
+
+    public Gui3(String topic) {
+        contentPane = new JFrame(topic);
+    }
+
+    private void addComponents() {
+        
+        namePanel = new JPanel();
+        namePanel.add(nameLabel);
+        namePanel.add(nameTextField);
+        AddressPanel = new JPanel();
+        AddressPanel.add(addressLabel);
+        AddressPanel.add(scrollBar);
+        buttonPanel = new JPanel();
+        okButton = new JButton("OK");
+        cancelButton = new JButton("CANCEL");
+        buttonPanel.add(okButton);
+        buttonPanel.add(cancelButton);
+
+       
+        nameLabel = new JLabel("Name");
+        addressLabel = new JLabel("Address: ");
+
+        txtArea = new JTextArea();
+        txtArea = new JTextArea(8,30);
+        txtArea.setText(text);
+        txtArea.setEditable(false);
+        txtArea.setLineWrap(true);
+        txtArea.setWrapStyleWord(true);
+        nameTextField = new JTextField(30);
+        scrollBar = new JScrollPane(txtArea);
+
+        contentPane.add(namePanel, BorderLayout.NORTH);
+        contentPane.add(buttonPanel, BorderLayout.SOUTH);
+        contentPane.add(AddressPanel, BorderLayout.CENTER);
+      
+    }
+
+    public static void createAndShowGUI() {
+        Gui3 msw = new Gui3("653040630-4");
+        msw.addComponents();
+        msw.setFrameFeatures();
+    }
+
+    private void setFrameFeatures() {
+    contentPane.setVisible(true);
+    contentPane.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    contentPane.pack();
+    contentPane.setLocationRelativeTo(null);
+    }
+
+
+public static void main(String[] args) {
+		SwingUtilities.invokeLater(new Runnable() {
+			@Override
+            public void run() {
+				createAndShowGUI();
+			}
+		});
+    } 
+    
+
+}

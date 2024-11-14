@@ -1,0 +1,37 @@
+.content_notLogin {
+    width: 100%;
+    padding: 5rem;
+    background: #F2FBFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 35px #0000000F;
+}
+
+.title_notlog {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    text-align: start;
+}
+
+.fs-1 {
+    font-weight: 700;
+}
+
+.fs-1 a {
+    text-decoration: none;
+}
+
+.bnt-login {
+    margin-top: 1rem;
+    padding: 10px;
+    width: 150px;
+    text-decoration: none;
+    background: #434C78 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 0.800000011920929px solid #13C8FF;
+    text-align: center;
+    font: normal normal 300 24px/53px Mitr;
+    letter-spacing: 0px;
+    color: #13C8FF;
+    border-radius: 45px;
+}

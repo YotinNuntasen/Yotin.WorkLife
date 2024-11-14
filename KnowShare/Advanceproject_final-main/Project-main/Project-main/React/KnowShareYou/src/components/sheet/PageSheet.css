@@ -1,0 +1,324 @@
+.sheet_subject {
+    width: 100%;
+    background: #F2FBFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 35px #0000000F;
+    border-radius: 40px;
+    padding-bottom: 5rem;
+}
+
+.sheet_title {
+    margin-top: 2rem;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48
+}
+
+.card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 35px #0000000F;
+    border-radius: 30px;
+    height: 366px;
+    padding-bottom: 1rem;
+}
+
+.img_card {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+}
+
+.img_card img {
+    /* background: transparent url('img/1_5oV6570O4NMY5lAK4PRXnA@2x.png') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 3px 6px #00000029;
+    width: 90%;
+    height: 175px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.card_download {
+    font-size: 0.8rem;
+}
+
+.fs-7 {
+    text-align: start;
+}
+
+.fs-7 .s-2 {
+    position: relative;
+    top: -7px;
+}
+
+.fs-7 .s-3 {
+    position: relative;
+    top: -12px;
+}
+
+.card_download a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DCDCE3;
+    border-radius: 50%;
+    color: #0B0D39;
+    text-decoration: none;
+}
+
+.card_download .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+    font-size: 20px;
+}
+
+.card_download a:hover {
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 20px -18px;
+}
+
+.download_file {
+    display: flex;
+    justify-content: center;
+}
+
+.download_file .row {
+    min-width: 1100px;
+    max-width: 90%;
+}
+
+.card_bd {
+    height: 160px;
+    padding: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card_bd p {
+    margin: 0;
+    text-align: start;
+}
+
+.icon-back {
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+    width: 60px;
+    height: 60px;
+    border: 1px solid var(--unnamed-color-0b0d39);
+    background: #0B0D39 0% 0% no-repeat padding-box;
+    border: 1px solid #0B0D39;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-back .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+}
+
+.search_subject {
+    padding: 1rem;
+    width: calc(20% + 0.1vmin);
+    height: 3rem;
+    max-height: 3rem;
+    color: #0B0D39;
+    position: relative;
+    top: -7rem;
+    left: calc(80% - 125px);
+    border: 1px solid var(--unnamed-color-707070);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 27px;
+}
+
+.search_subject input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.title1 {
+    text-align: center;
+    font: normal normal bold 18px/93px;
+    letter-spacing: 3.19px;
+    color: #FF9100;
+    text-transform: uppercase;
+    background: var(--unnamed-color-ff910033) 0% 0% no-repeat padding-box;
+    background: #FF910033 0% 0% no-repeat padding-box;
+    border-radius: 43px;
+}
+
+.title2 {
+    text-align: center;
+    font: normal normal bold 64px/85px;
+    color: #0B0D39;
+    letter-spacing: -4px;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 960px) {
+    .search_subject {
+        top: -1rem;
+        left: calc(40% + 0.2vmin);
+    }
+    .sheet_title img {
+        width: 12%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .search_subject {
+        left: calc(15% - 0.2vmin);
+        width: calc(70% + 0.5vmin);
+    }
+    .sheet_title img {
+        width: 12%;
+        margin-bottom: 2rem;
+    }
+}
+
+.showFile_car {
+    width: 100%;
+    height: 30rem;
+    background-size: fill;
+}
+
+
+/* ######################## css page sheet <name subject> ################################### */
+
+.head_subject {
+    width: 100%;
+    padding-bottom: 5rem;
+    background: #F2FBFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 35px #0000000F;
+    border-radius: 40px;
+}
+
+.text_description {
+    width: 70%;
+    padding: 2rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 33px 61px #0B0D3914;
+    border-radius: 50px 50px 50px 20px;
+}
+
+.title_header_subject img {
+    max-width: 600px;
+}
+
+.description {
+    opacity: 0.6;
+}
+
+.wiki_img img {
+    width: 20%;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+.wiki_img a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #0B0D39;
+}
+
+
+/* ############## card subject #################### */
+
+.body_card_subject {
+    margin-top: 5rem;
+}
+
+.car_subject {
+    max-height: 1rem;
+}
+
+.car_subject .fs-2 {
+    font-weight: 600;
+    letter-spacing: -0.9px;
+}
+
+.car_subject_img {
+    width: 100%;
+    background: #DFDFDF1A 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 30px;
+}
+
+.card_next .fs-7 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0B0D39;
+    margin-right: 1rem;
+    opacity: 0.4;
+    display: flex;
+    align-items: center;
+}
+
+.card_next a {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border: 1px solid #DCDCE3;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.card_next a:hover {
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 20px -18px;
+}
+
+.card-subject {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 35px #0000000F;
+    border-radius: 30px;
+    height: 400px;
+    padding-bottom: 1rem;
+}
+
+
+/* ############## css page sheet <name subject> ################################### */
+
+.title-physic {
+    text-align: center;
+    font: normal normal bold 18px/93px;
+    letter-spacing: 3.19px;
+    color: #00C254;
+    text-transform: uppercase;
+    background: #00C25433 0% 0% no-repeat padding-box;
+    border-radius: 43px;
+}
+
+.title-english {
+    text-align: center;
+    font: normal normal bold 18px/93px;
+    letter-spacing: 3.19px;
+    color: #356DFF;
+    text-transform: uppercase;
+    background: #356DFF33 0% 0% no-repeat padding-box;
+    border-radius: 43px;
+}
+
+.title-computer {
+    text-align: center;
+    font: normal normal bold 18px/93px;
+    letter-spacing: 3.19px;
+    color: #707070;
+    text-transform: uppercase;
+    background: #70707033 0% 0% no-repeat padding-box;
+    border-radius: 43px;
+}
+
+.compro .material-symbols-outlined {
+    color: #000000;
+}

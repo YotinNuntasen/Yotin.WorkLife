@@ -1,0 +1,16 @@
+.text_email {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    word-wrap: break-word;
+}
+
+.link-footer .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+    background-color: #356DFF;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: default;
+}

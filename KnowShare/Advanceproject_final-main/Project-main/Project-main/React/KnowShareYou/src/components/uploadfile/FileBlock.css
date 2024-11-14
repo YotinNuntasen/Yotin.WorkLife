@@ -1,0 +1,23 @@
+.text p {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.text_name {
+    font-size: 1.2rem;
+    width: 330;
+}
+
+.cancel_icon {
+    max-width: 330px;
+    width: 330px;
+}
+
+.file_block {
+    margin: 10px;
+}
+
+.show_icon {
+    width: 400px;
+    max-width: 400px;
+}

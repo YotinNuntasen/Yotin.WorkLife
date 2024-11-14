@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+.contain_home {
+    /* width: 1200; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content_title {
+    width: calc(90% + 1vmin);
+}
+
+.title p {
+    margin: 0;
+}
+
+.title a {
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.title .title_share {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        text-align: center;
+    }
+}
+
+.bnt-sheet {
+    height: 48px;
+    align-items: center;
+    appearance: none;
+    background: #2B2D5B 0% 0% no-repeat padding-box;
+    border-radius: 43px 43px 43px 12px;
+    border-width: 0;
+    box-shadow: 0px 3px 6px #00000029;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Kanit', sans-serif;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.bnt-sheet:focus {
+    box-shadow: #363872 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #363872 0 -3px 0 inset;
+}
+
+.bnt-sheet:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #363872 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.bnt-sheet:active {
+    box-shadow: #363872 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.bnt-upload {
+    align-items: center;
+    margin: 0;
+    appearance: none;
+    background-color: #fff;
+    border: 2px solid #cec9c9;
+    border-radius: 43px 43px 43px 12px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #363636;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2rem;
+    height: 3rem;
+    justify-content: center;
+    line-height: 1.5;
+    padding: calc(.5em - 1px) 1em;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.bnt-upload:active {
+    border-color: #4a4a4a;
+    outline: 0;
+}
+
+.bnt-upload:focus {
+    border-color: #33438b;
+    outline: 0;
+}
+
+.bnt-upload:hover {
+    border-color: #433e6d;
+    transform: translateY(-2px);
+}
+
+.bnt-upload:focus:not(:active) {
+    box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+}
+
+.subject_link {
+    background: #F2FBFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 35px #0000000F;
+    border-radius: 40px;
+}
+
+.subject_link p {
+    display: inline
+}
+
+.title_subject {
+    margin-top: 3rem;
+}
+
+.title_subject p {
+    margin: 0;
+}
+
+.title_text_subjects {
+    align-items: center;
+    margin: 0;
+    appearance: none;
+    background: #FA666633 0% 0% no-repeat padding-box;
+    border-radius: 43px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FA6666;
+    display: inline-flex;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2rem;
+    height: 3rem;
+    justify-content: center;
+    line-height: 1.5;
+    padding: calc(.5em - 1px) 1em;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    box-shadow: 0px 3px 6px #00000029;
+    font-weight: 600;
+}
+
+.title_choice_subjects {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+
+.choice_subject {
+    display: flex;
+    justify-content: start;
+    /* align-items: ; */
+    flex-direction: column;
+    text-align: center;
+    max-width: 220px;
+}
+
+.choice_subject img {
+    margin-bottom: 1rem;
+    /* border-radius: 50%; */
+}
+
+.text_subject {
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #0B0D39;
+}

@@ -1,0 +1,113 @@
+.contentContact {
+    width: 100%;
+    background: #F2FBFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 35px #00000029;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contentContact h {
+    color: #356DFF;
+}
+
+.text_contact {
+    width: 70%;
+    padding: 2rem;
+    background: #434C78 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+}
+
+.text_contact a {
+    background: #434C78 0% 0% no-repeat padding-box;
+    border: 1px solid #13C8FF;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #13C8FF;
+}
+
+.text_contact a:hover {
+    background: #12c3f8d8 0% 0% no-repeat padding-box;
+    color: #434C78;
+}
+
+.bg_bnt_contact {
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 100%;
+    background: #515A88 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+}
+
+.credit_title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.credit_title .title_blue {
+    color: #356DFF;
+}
+
+.body_credit {
+    padding: 2rem;
+    background: #434C78 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+}
+
+.body_credit_font a {
+    text-align: center;
+    margin: 0 1rem 0 1rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    text-decoration: none;
+    background: #333a5c 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 0.800000011920929px solid #13C8FF;
+    border-radius: 30px;
+    color: #13C8FF;
+}
+
+.body_credit_font a:hover {
+    background: #12c3f8d8 0% 0% no-repeat padding-box;
+    color: #434C78;
+    order: 1px solid #434C78;
+}
+
+.det {
+    margin: 1rem;
+    border: #F2FBFC 1px solid;
+    opacity: 0.3;
+}
+
+.text_we {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.to_top_page {
+    display: flex;
+    justify-content: end;
+}
+
+.to_top_page .circle {
+    padding: 1rem;
+    text-align: center;
+    background: #0B0D39 0% 0% no-repeat padding-box;
+    border: 1px solid #0B0D39;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.to_top_page .material-symbols-outlined {
+    font-size: 3rem;
+    font-weight: 500;
+}
